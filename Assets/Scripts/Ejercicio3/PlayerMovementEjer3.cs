@@ -17,7 +17,7 @@ public class PlayerMovementEjer3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.GetComponent<MeshRenderer> ().material = greenMaterial;
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class PlayerMovementEjer3 : MonoBehaviour
         }
 
         if(other.gameObject.tag == "colorChanger"){
-            switch (Random.Range(0,2))
+            switch (Random.Range(0,3))
             {
                 case 0:
                     gameObject.GetComponent<MeshRenderer> ().material = purpleMaterial;

@@ -6,14 +6,13 @@ public class SpeedPowerUp : MonoBehaviour
 {
     private GameObject speedUp;
     float _initialTime;
-    int SpeedPowerUpActive = 3;
-    //Vector3 acceleration = new Vector3(2, 0, 0);
+    int SpeedPowerUpActive = 5;
     public GameObject PurpleSphere, GreenSphere, OrangeSphere, colorChanger, powerUp;
 
     // Start is called before the first frame update
     void Start()
     {
-        //_initialTime = Time.time;
+        
     }
 
     // Update is called once per frame
