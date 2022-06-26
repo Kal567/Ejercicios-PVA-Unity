@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Ejer3/Ejercicio3.unity
+    guid: c6110d10dd1eb7640a617f675383d82b
+  - enabled: 1
+    path: Assets/Scenes/Ejer3/GameOverEjer3.unity
+    guid: 40d08e50047f6a047a0784e8feb24059
   m_configObjects: {}
