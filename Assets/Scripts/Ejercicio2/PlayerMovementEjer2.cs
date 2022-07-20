@@ -9,11 +9,6 @@ public class PlayerMovementEjer2 : MonoBehaviour
     const float MIN_X = -10f, MAX_X = 10f, MIN_Y = -4.18f, MAX_Y = -4.18f;
     public GameObject projectile;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
