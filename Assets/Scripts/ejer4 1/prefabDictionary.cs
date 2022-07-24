@@ -23,6 +23,7 @@ public class prefabDictionary : MonoBehaviour
     public GameObject Q;
     public GameObject R;
     public GameObject S;
+    public GameObject T;
     public static Dictionary<string, GameObject> prefabs = new Dictionary<string, GameObject>();
 
     private void Start() {
@@ -45,5 +46,6 @@ public class prefabDictionary : MonoBehaviour
         prefabs.Add("Q", Q);
         prefabs.Add("R", R);
         prefabs.Add("S", S);
+        prefabs.Add("T", T);
     }
 }
